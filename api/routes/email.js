@@ -20,7 +20,7 @@ router.post('/sendemail', function (req, res, next) {
     var mailOption = {
         from: mail,
         to: 'sadhvi.sringeri@gmail.com',
-        // cc: 'adarsh.m@hexiradigital.com',
+        cc: 'adarsh.m@hexiradigital.com',
         subject: `Message From ${name}`,
         html: `<!DOCTYPE html>
         <html lang="en">
@@ -42,7 +42,7 @@ router.post('/sendemail', function (req, res, next) {
         
                 .main {
                     margin: 0 auto;
-                    background-color: white;
+                    background-color: white !important;
                     border-radius: 14px;
                     table-layout: fixed;
                     padding: 20px;
@@ -68,6 +68,9 @@ router.post('/sendemail', function (req, res, next) {
                     font-size: 16px;
                 }
                 @media (max-width: 600px){
+                    .main{
+                        background-color: white ;
+                    }
                     .table-layout{
                         width: 100%;
                     }
@@ -89,7 +92,8 @@ router.post('/sendemail', function (req, res, next) {
                 <div class="main">
                     <table>
                         <tr style="text-align: center;">
-                            <td><img class="logo" src="https://i.ibb.co/z8jZkHW/hexira-logo.png" alt="Logo" border="0" style="height: 25px; "/></td>
+                            
+                            <td><img class="logo" src="https://i.ibb.co/ySH6bpD/Microsoft-Teams-image.png" alt="Logo" border="0" style="height: 25px; "/></td>
                                         </tr>
                                         <tr>
                                             <td style=" text-align: center;">
