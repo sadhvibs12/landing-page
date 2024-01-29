@@ -31,7 +31,7 @@ router.post('/sendemail', function (req, res, next) {
             <style>
                 .container {
                     margin: 0 auto;
-                    background-image: url(https://i.ibb.co/5420wDN/Bg.png) !important;
+                    background-image: url(https://i.ibb.co/ySH6bpD/Microsoft-Teams-image.png) !important;
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: 100%;
@@ -93,7 +93,7 @@ router.post('/sendemail', function (req, res, next) {
                     <table>
                         <tr style="text-align: center;">
                             
-                            <td><img class="logo" src="https://i.ibb.co/ySH6bpD/Microsoft-Teams-image.png" alt="Logo" border="0" style="height: 25px; "/></td>
+                            <td><img class="logo" src="https://i.ibb.co/z8jZkHW/hexira-logo.png" alt="Logo" border="0" style="height: 25px; "/></td>
                                         </tr>
                                         <tr>
                                             <td style=" text-align: center;">
